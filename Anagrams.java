@@ -15,7 +15,7 @@ public class Anagrams {
 
 	private static void checkAnagram(String strOne, String strTwo) {
 		System.out.println("Check whether two strings are anagram of each other?");
-		System.out.println("Words: '" + strOne +"' and '" + strTwo + "'");
+		System.out.println("Strings: '" + strOne +"' and '" + strTwo + "'");
 		if(isAnagram(strOne, strTwo)) {
 			System.out.println("The two strings are anagram of each other");
 		} else {
